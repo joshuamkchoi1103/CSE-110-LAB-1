@@ -1,0 +1,81 @@
+#S1 {
+    background-color: rgb(245, 240, 230);
+    display: inline-block;
+    scroll-margin-top: 170px;
+}
+
+#S2 {
+    background-image: url("bg-orbs-1.jpg");
+    display: inline-block;
+    color: white;
+    scroll-margin-top: 170px;
+}
+
+#S3 {
+    scroll-margin-top: 170px;
+    background-color: rgb(245, 240, 230);
+    display: inline-block;
+}
+
+li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+  }
+
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+  #navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+  }
+
+  #navbar a:hover {
+    color: white;
+    background-color: #182b49;
+  }
+
+  p {
+    font-size: 28px;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+  .wrapper div {
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
+    font-size: 28px;
+  }
+
+  .one {
+    grid-column: 1;
+  }
+  .two {
+    grid-column: 2;
+  }
+  .three {
+    grid-column: 3;
+  }
+  .four {
+    grid-column: 4;
+  }
+
